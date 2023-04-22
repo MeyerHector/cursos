@@ -1,0 +1,43 @@
+#logo {
+    height: 80px;
+    padding-left: 10px;
+
+}
+body {
+    background-color: #D2EFEF;
+    font-family: Georgia, 'Times New Roman', Times, serif   
+}
+header {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background-color: #BEE7E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    display: flex
+}
+
+a {
+    font-size: 36px;
+    text-decoration: none;
+    color: #0e0f0e;
+    font-family: 'Carlito', sans-serif;
+}
+
+nav ul {
+    padding-right: 40px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    align-items: center;
+}
