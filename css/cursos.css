@@ -14,11 +14,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 8%;
 }
 
 nav {
     flex: 1;
-    align-items: center;
+    align-items: end;
+    padding-right: 20px;
 }
 
 a {
@@ -55,6 +57,7 @@ main {
     flex-direction: column;
     background-image: url("../img/Fondo.jpg") ;
     background-size: cover;
+    height: 92%;
 }
 section {
     display: flex;
